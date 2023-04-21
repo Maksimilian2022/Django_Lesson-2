@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Рецепты</title>
+</head>
+<body>
+#Ответ
+<!--{% for el in dish %}-->
+<!--    <li>{{el.0}}: {{el.1}}</li>-->
+<!--{%endfor%}-->
+
+{% for el in dish %}
+    <li>{{el.0}}: {{el.1}}</li>
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+<!--{% for ingredient, amount in recipe.items %}-->
+<!--    <p>{{ ingredient }}: {{ amount }}</p>-->
+<!--{% empty %}-->
+<!--    <p>Такого рецепта не знаю :(</p>-->
+<!--{% endfor %}-->
+</body>
+</html>
